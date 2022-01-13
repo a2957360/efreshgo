@@ -1,0 +1,47 @@
+{
+  "displayName": "efreshgo",
+  "facebookScheme": "fb2022495567887518",
+  "facebookAppId": "2022495567887518",
+  "facebookDisplayName": "efreshgo",
+  "expo": {
+    "name": "eFreshGo",
+    "slug": "eFreshGo",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "usesAppleSignIn": true,
+      "supportsTablet": false,
+      "bundleIdentifier": "com.efreshgo.client",
+      "buildNumber": "8",
+      "infoPlist": {
+        "NSCameraUsageDescription": "eFreshGo想要访问相机，为了上传头像照片",
+        "NSMicrophoneUsageDescription": "eFreshGo想要访问麦克风，为了上传头像照片",
+        "NSPhotoLibraryAddUsageDescription": "eFreshGo想要访问相册，为了上传头像照片",
+        "NSPhotoLibraryUsageDescription": "eFreshGo想要访问相册，为了上传头像照片"
+      }
+    },
+    "description": "",
+    "android": {
+      "package": "com.efreshgo.client",
+      "versionCode": 8
+    }
+  }
+}
